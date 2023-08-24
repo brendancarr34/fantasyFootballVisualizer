@@ -16,7 +16,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App/>}/>
         <Route path="/njfl" element={<NJFL/>}/>
-        <Route path="exfl" element={<EXFL/>}/>
+        <Route path="/exfl" element={<EXFL/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
