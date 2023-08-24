@@ -6,9 +6,19 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from "react-router-dom";
 
 
 function App() {
+
+  let navigate = useNavigate(); 
+  const njfl = () => { 
+      navigate('/njfl');
+  }
+  const exfl = () => {
+      navigate('/exfl');
+  }
+
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -29,12 +39,12 @@ function App() {
       </Row>
       <Row style={center()}>
         <Col style={center()}>
-          <Button style={whiteButton()}>
+          <Button style={whiteButton()} onClick={njfl}>
             NJFL
           </Button>
         </Col>
         <Col style={center()}>
-          <Button style={whiteButton()}>
+          <Button style={whiteButton()} onClick={exfl}>
             EXFL
           </Button>
         </Col>
@@ -69,10 +79,12 @@ function centerLower() {
   function whiteButton() {
     return {
         backgroundColor:"white",
+        color:"black",
         border:'black',
         width: 155,
         padding:20,
-        margin:10
+        margin:10,
+        'font-size':20
     }
 }
 }
