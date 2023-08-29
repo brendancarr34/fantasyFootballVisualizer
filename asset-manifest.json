@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/fantasyFootballVisualizer/static/css/main.043ea786.css",
-    "main.js": "/fantasyFootballVisualizer/static/js/main.212ab5d0.js",
+    "main.js": "/fantasyFootballVisualizer/static/js/main.ff7f93c0.js",
     "static/js/787.3c6b7553.chunk.js": "/fantasyFootballVisualizer/static/js/787.3c6b7553.chunk.js",
     "static/media/njflLeagueManagers.png": "/fantasyFootballVisualizer/static/media/njflLeagueManagers.b85e518db420b1ad657d.png",
     "static/media/football.png": "/fantasyFootballVisualizer/static/media/football.9119490b4a7672454333.png",
     "static/media/logo.svg": "/fantasyFootballVisualizer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/fantasyFootballVisualizer/index.html",
     "main.043ea786.css.map": "/fantasyFootballVisualizer/static/css/main.043ea786.css.map",
-    "main.212ab5d0.js.map": "/fantasyFootballVisualizer/static/js/main.212ab5d0.js.map",
+    "main.ff7f93c0.js.map": "/fantasyFootballVisualizer/static/js/main.ff7f93c0.js.map",
     "787.3c6b7553.chunk.js.map": "/fantasyFootballVisualizer/static/js/787.3c6b7553.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.043ea786.css",
-    "static/js/main.212ab5d0.js"
+    "static/js/main.ff7f93c0.js"
   ]
 }
