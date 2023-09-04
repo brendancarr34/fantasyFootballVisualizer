@@ -10,15 +10,15 @@ function NJFL() {
     const home = () => { 
         navigate('/');
     }
+    const managers = () => {
+        navigate('/njfl/managers')
+    }
 
     return(
         <Container className="App2">
-            <Row>
-                <p>test1</p>
-            </Row>
-            <Row>
-                <p>test2</p>
-            </Row>
+            <Button style={whiteButton()} onClick={managers}>
+            Managers
+          </Button>
             <Button style={whiteButton()} onClick={home}>
             Back
           </Button>

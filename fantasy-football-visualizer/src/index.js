@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import NJFL from './NJFL';
 import EXFL from './EXFL';
+import ManagersPage from './components/ManagersPage';
 
 const router = createHashRouter([
   {
@@ -16,7 +17,11 @@ const router = createHashRouter([
   },
   {
     path: "/njfl",
-    element: <NJFL/>
+    element: <NJFL/>,
+  },
+  {
+    path: "/njfl/managers",
+    element: <ManagersPage/>
   },
   {
     path: "/exfl",
