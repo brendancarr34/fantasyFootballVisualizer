@@ -9,6 +9,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import NJFL from './NJFL';
 import EXFL from './EXFL';
 import ManagersPage from './components/ManagersPage';
+import ManagerRecordsPage from './components/ManagerRecordsPage';
 
 const router = createHashRouter([
   {
@@ -21,7 +22,11 @@ const router = createHashRouter([
   },
   {
     path: "/njfl/managers",
-    element: <ManagersPage/>
+    element: <ManagersPage/>,
+  },
+  {
+    path: "njfl/managerRecords",
+    element: <ManagerRecordsPage/>,
   },
   {
     path: "/exfl",
