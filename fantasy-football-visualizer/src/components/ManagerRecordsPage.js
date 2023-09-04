@@ -27,7 +27,7 @@ function ManagerRecordsPage() {
             {/* <Row>
                 <br></br>
             </Row> */}
-            <Button style={whiteButton()} onClick={back}>
+            <Button style={greyButton()} onClick={back}>
                 Back
           </Button>
         </Container>
@@ -45,6 +45,17 @@ function ManagerRecordsPage() {
         }
     }
 
+    function greyButton() {
+        return {
+            backgroundColor:"grey",
+            color:"white",
+            border:'white',
+            // width: '40vh',
+            padding:20,
+            margin:10,
+            'font-size':20
+        }
+    }
 
 }
 

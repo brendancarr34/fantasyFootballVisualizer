@@ -25,7 +25,7 @@ function NJFL() {
             <Button style={whiteButton()} onClick={managerRecords}>
                 Manager Records
             </Button>
-            <Button style={whiteButton()} onClick={home}>
+            <Button style={greyButton()} onClick={home}>
                 Back
             </Button>
         </Container>
@@ -37,6 +37,18 @@ function NJFL() {
             color:"black",
             border:'black',
             width: 155,
+            padding:20,
+            margin:10,
+            'font-size':20
+        }
+    }
+
+    function greyButton() {
+        return {
+            backgroundColor:"grey",
+            color:"white",
+            border:'white',
+            // width: '40vh',
             padding:20,
             margin:10,
             'font-size':20

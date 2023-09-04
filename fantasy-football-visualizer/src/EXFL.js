@@ -16,18 +16,18 @@ function EXFL() {
             <Row>
                 <p>(under construction)</p>
             </Row>
-            <Button style={whiteButton()} onClick={home}>
+            <Button style={greyButton()} onClick={home}>
             Back
           </Button>
         </Container>
     )
 
-    function whiteButton() {
+    function greyButton() {
         return {
-            backgroundColor:"white",
-            color:"black",
-            border:'black',
-            width: 155,
+            backgroundColor:"grey",
+            color:"white",
+            border:'white',
+            // width: '40vh',
             padding:20,
             margin:10,
             'font-size':20
