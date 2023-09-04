@@ -20,12 +20,6 @@ function App() {
   }
 
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={football} className="App-logo" alt="logo" />
-    //     <h1 style={{margin:100}}>Fantasy Database Visualizer</h1>
-    //   </header>
-    // </div>
     <Container className="App2">
       <Row>
         <img src={football} className="App-logo" alt="logo" />
@@ -86,7 +80,7 @@ function centerLower() {
         margin:10,
         'font-size':20
     }
-}
+  }
 }
 
 export default App;
