@@ -19,12 +19,12 @@ function ImageComponent({ selectedOption }) {
         imageUrl = njflManagerRecordByYear_thomas;
         break;
     default:
-      imageUrl = 'SELECT A NAME';
+      imageUrl = 'null';
   }
 
   return (
     <div>
-      <img src={imageUrl} className='image' alt={imageUrl} />
+      {imageUrl != 'null' && (<img src={imageUrl} className='image' alt={imageUrl} />)}
     </div>
   );
 }

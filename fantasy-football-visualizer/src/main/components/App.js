@@ -22,12 +22,12 @@ function App() {
       <Row>
         <img src={football} className="App-logo" alt="logo" />
       </Row>
-      <Row>
+      {/* <Row>
           <br/>
-      </Row>
+      </Row> */}
       <Row>
         <h1>Fantasy Football<br/> Data Visualizer</h1>
-        <p>v1.0</p>
+        {/* <p>v1.0</p> */}
       </Row>
       <Row style={center()}>
         <Col style={center()}>

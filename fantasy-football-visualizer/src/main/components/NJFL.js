@@ -21,16 +21,19 @@ function NJFL() {
 
     return(
         <Container className="App2">
-            <Button style={whiteButton()} onClick={managers}>
+            <Button className='button-white' onClick={managers}>
                 Managers
             </Button>
-            <Button style={whiteButton()} onClick={managerRecords}>
+            <Button className='button-white' onClick={managerRecords}>
                 Manager Records
             </Button>
-            <Button style={whiteButton()} onClick={managerRecordsByYear}>
+            <Button className='button-white' onClick={managerRecordsByYear}>
                 Individual Manager Records By Year
             </Button>
-            <Button style={greyButton()} onClick={home}>
+            {/* <Button style={greyButton()} onClick={home}>
+                Back
+            </Button> */}
+            <Button className='button-grey' onClick={home}>
                 Back
             </Button>
         </Container>
