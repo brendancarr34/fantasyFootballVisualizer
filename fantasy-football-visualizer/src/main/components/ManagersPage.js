@@ -22,7 +22,7 @@ function ManagersPage() {
                 <br></br>
             </Row>
             <Row>
-                <img src={njflLeagueManagers} style={{height: '40vh'}}/>
+                <img src={njflLeagueManagers} style={{height: '40vh'}} alt="njflLeagueManagers"/>
             </Row>
             <Row>
                 <br></br>

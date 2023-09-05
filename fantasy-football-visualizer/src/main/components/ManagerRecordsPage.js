@@ -25,7 +25,7 @@ function ManagerRecordsPage() {
                 <br></br>
             </Row> */}
             <Row>
-                <img src={njflManagerRecords} style={{height: '60vh'}}/>
+                <img src={njflManagerRecords} style={{height: '60vh'}} alt="njflManagerRecords"/>
             </Row>
             {/* <Row>
                 <br></br>
