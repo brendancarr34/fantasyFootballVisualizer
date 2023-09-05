@@ -4,6 +4,7 @@ import NJFL from '../components/NJFL';
 import EXFL from '../components/EXFL';
 import ManagersPage from '../components/ManagersPage';
 import ManagerRecordsPage from '../components/ManagerRecordsPage';
+import ManagerRecordsByYearPage from '../components/ManagerRecordsByYearPage';
 
 export const router = createHashRouter([
   {
@@ -21,6 +22,10 @@ export const router = createHashRouter([
   {
     path: "njfl/managerRecords",
     element: <ManagerRecordsPage/>,
+  },
+  {
+    path: "njfl/managerRecordsByYear",
+    element: <ManagerRecordsByYearPage/>,
   },
   {
     path: "/exfl",

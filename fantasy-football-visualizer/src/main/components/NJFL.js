@@ -15,6 +15,9 @@ function NJFL() {
     const managerRecords = () => {
         navigate('managerRecords');
     }
+    const managerRecordsByYear = () => {
+        navigate('managerRecordsByYear')
+    }
 
     return(
         <Container className="App2">
@@ -23,6 +26,9 @@ function NJFL() {
             </Button>
             <Button style={whiteButton()} onClick={managerRecords}>
                 Manager Records
+            </Button>
+            <Button style={whiteButton()} onClick={managerRecordsByYear}>
+                Individual Manager Records By Year
             </Button>
             <Button style={greyButton()} onClick={home}>
                 Back
