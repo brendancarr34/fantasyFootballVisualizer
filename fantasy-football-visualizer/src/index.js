@@ -1,38 +1,9 @@
 import React from 'react';
-// import { createRoot } from "react-dom/client";
 import ReactDOM from 'react-dom';
+import reportWebVitals from './main/resources/reportWebVitals';
+import { RouterProvider } from "react-router-dom";
+import { router } from './main/routing/Router';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { createHashRouter, RouterProvider } from "react-router-dom";
-import NJFL from './NJFL';
-import EXFL from './EXFL';
-import ManagersPage from './components/ManagersPage';
-import ManagerRecordsPage from './components/ManagerRecordsPage';
-
-const router = createHashRouter([
-  {
-    path: "/",
-    element: <App/>
-  },
-  {
-    path: "/njfl",
-    element: <NJFL/>,
-  },
-  {
-    path: "/njfl/managers",
-    element: <ManagersPage/>,
-  },
-  {
-    path: "njfl/managerRecords",
-    element: <ManagerRecordsPage/>,
-  },
-  {
-    path: "/exfl",
-    element: <EXFL/>
-  }
-]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

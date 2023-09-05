@@ -1,9 +1,9 @@
-import '../App.css';
+import '../resources/App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-import njflLeagueManagers from '../njflLeagueManagers.png';
+import njflLeagueManagers from '../images/njflLeagueManagers.png';
 
 function ManagersPage() {
 

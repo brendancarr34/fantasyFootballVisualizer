@@ -1,9 +1,11 @@
-import '../App.css';
+import '../resources/App.css';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-import njflManagerRecords from '../njflManagerRecords.png';
+import njflManagerRecords from '../images/njflManagerRecords.png';
+// import { handleNjflClick } from '../routes/NJFLRouter';
 
 function ManagerRecordsPage() {
 
@@ -11,6 +13,7 @@ function ManagerRecordsPage() {
     const back = () => { 
         navigate('/njfl');
     }
+    // const { goBAck } = handleNjflClick();
 
     return(
         <Container className="App2">
