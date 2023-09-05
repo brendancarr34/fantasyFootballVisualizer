@@ -36,18 +36,6 @@ function ManagerRecordsPage() {
         </Container>
     )
 
-    function whiteButton() {
-        return {
-            backgroundColor:"white",
-            color:"black",
-            border:'black',
-            // width: 155,
-            padding:20,
-            margin:10,
-            'font-size':20
-        }
-    }
-
     function greyButton() {
         return {
             backgroundColor:"grey",
