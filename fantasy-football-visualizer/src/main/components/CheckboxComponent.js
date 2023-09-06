@@ -3,11 +3,12 @@ import React from 'react';
 function CheckboxComponent({ showImage, onCheckboxChange }) {
   return (
     <div>
-      <label>
+      <label style={{padding:'100px'}}>
         <input
           type="checkbox"
           checked={showImage}
           onChange={onCheckboxChange}
+          style={{marginRight:'10px'}}
         />
         Active Only
       </label>
