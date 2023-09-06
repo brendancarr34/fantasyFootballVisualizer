@@ -67,7 +67,7 @@
 }
 
 .image {
-  width: 100%; /* The image will always take the full width of its container */
+  width: 90%; /* The image will always take the full width of its container */
   height: auto; /* Maintain the image's aspect ratio */
   object-fit: contain; /* Scale the image to fit inside the container without cropping */
 }
@@ -117,7 +117,7 @@
   height: auto;
   object-fit: contain;
   background-color: grey;
-  color: black;
+  color: white;
   border: black;
   padding: 20px;
   margin:10px;

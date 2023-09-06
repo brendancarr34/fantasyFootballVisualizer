@@ -1,28 +1,31 @@
 import '../resources/App.css';
-import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-import njflManagerRecords from '../images/njflManagerRecords.png';
-// import { handleNjflClick } from '../routes/NJFLRouter';
+import njflTopThreeFinishes from '../images/njflTopThreeFinishes.png';
 
-function ManagerRecordsPage() {
+function TopThreeFinishes() {
 
     let navigate = useNavigate(); 
     const back = () => { 
         navigate('/njfl');
     }
-    // const { goBAck } = handleNjflClick();
 
     return(
         <Container className="App2">
             <Row>
-                <h1>Manager Records</h1>
-                <h3>2011-2022</h3>
+                <h1>Top Three Finishes</h1>
+                <h3>2011-2021</h3>
             </Row>
             <Row>
-                <img src={njflManagerRecords} style={{height: '55vh'}} alt="njflManagerRecords"/>
+                <br></br>
+            </Row>
+            <Row>
+                <img src={njflTopThreeFinishes} className='image' alt="njflTopThreeFinishes"/>
+            </Row>
+            <Row>
+                <br></br>
             </Row>
             <Button style={greyButton()} onClick={back}>
                 Back
@@ -42,6 +45,7 @@ function ManagerRecordsPage() {
         }
     }
 
+
 }
 
-export default ManagerRecordsPage;
+export default TopThreeFinishes;

@@ -16,7 +16,10 @@ function NJFL() {
         navigate('managerRecords');
     }
     const managerRecordsByYear = () => {
-        navigate('managerRecordsByYear')
+        navigate('managerRecordsByYear');
+    }
+    const topThreeFinishes = () => {
+        navigate('topThreeFinishes');
     }
 
     return(
@@ -30,9 +33,9 @@ function NJFL() {
             <Button className='button-white' onClick={managerRecordsByYear}>
                 Individual Manager Records By Year
             </Button>
-            {/* <Button style={greyButton()} onClick={home}>
-                Back
-            </Button> */}
+            <Button className='button-white' onClick={topThreeFinishes}>
+                Top Three Finishes
+            </Button>
             <Button className='button-grey' onClick={home}>
                 Back
             </Button>
