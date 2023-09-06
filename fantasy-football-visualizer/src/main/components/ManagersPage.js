@@ -3,7 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
-import njflLeagueManagers from '../images/njflLeagueManagers.png';
+// import njflLeagueManagers from '../images/njflLeagueManagers.png';
+import ImageComponent from './ImageComponent';
+import CheckboxComponent from './CheckboxComponent';
+import { useState } from 'react';
 
 function ManagersPage() {
 
@@ -12,6 +15,13 @@ function ManagersPage() {
         navigate('/njfl');
     }
 
+    const [showImage, setShowImage] = useState(false);
+
+    // Function to toggle the image display based on the checkbox value
+    const handleCheckboxChange = () => {
+      setShowImage((prevShowImage) => !prevShowImage);
+    };
+
     return(
         <Container className="App2">
             <Row>
@@ -19,10 +29,17 @@ function ManagersPage() {
                 <h3>2011-2022</h3>
             </Row>
             <Row>
-                <br></br>
+                {/* <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checkboxValue"/>
+                <label for="myCheckbox">Active Only</label> */}
+                <CheckboxComponent
+                    showImage={showImage}
+                    onCheckboxChange={handleCheckboxChange}
+                />
+                <br/>
             </Row>
             <Row>
-                <img src={njflLeagueManagers} className='image' alt="njflLeagueManagers"/>
+                {/* <img src={njflLeagueManagers} className='image' alt="njflLeagueManagers"/> */}
+                <ImageComponent selectedOption={showImage}/>
             </Row>
             <Row>
                 <br></br>

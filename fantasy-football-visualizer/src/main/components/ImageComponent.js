@@ -3,6 +3,8 @@ import React from 'react';
 import njflManagerRecordByYear_brendan from '../images/njflManagerRecordByYear_brendan.png';
 import njflManagerRecordByYear_jordan from '../images/njflManagerRecordByYear_jordan.png';
 import njflManagerRecordByYear_thomas from '../images/njflManagerRecordByYear_thomas.png';
+import njflLeagueManagers from '../images/njflLeagueManagers.png';
+import njflActiveLeagueManagers from '../images/njflActiveLeagueManagers.png';
 import '../resources/App.css';
 
 function ImageComponent({ selectedOption }) {
@@ -17,6 +19,12 @@ function ImageComponent({ selectedOption }) {
       break;
     case 'thomas':
         imageUrl = njflManagerRecordByYear_thomas;
+        break;
+    case false:
+        imageUrl = njflLeagueManagers;
+        break;
+    case true:
+        imageUrl = njflActiveLeagueManagers;
         break;
     default:
       imageUrl = 'null';
