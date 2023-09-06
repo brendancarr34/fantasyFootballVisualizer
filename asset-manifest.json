@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/fantasyFootballVisualizer/static/css/main.9edd9613.css",
-    "main.js": "/fantasyFootballVisualizer/static/js/main.f47e723e.js",
+    "main.js": "/fantasyFootballVisualizer/static/js/main.7977a935.js",
     "static/js/787.3c6b7553.chunk.js": "/fantasyFootballVisualizer/static/js/787.3c6b7553.chunk.js",
     "static/media/njflTopThreeFinishes.png": "/fantasyFootballVisualizer/static/media/njflTopThreeFinishes.1e88cca3d732c5993796.png",
     "static/media/njflManagerRecordByYear_jordan.png": "/fantasyFootballVisualizer/static/media/njflManagerRecordByYear_jordan.be3e5b88cd9db331bb1f.png",
+    "static/media/njflActiveLeagueManagers.png": "/fantasyFootballVisualizer/static/media/njflActiveLeagueManagers.c6e0f7726de08e2824b3.png",
     "static/media/njflManagerRecordByYear_thomas.png": "/fantasyFootballVisualizer/static/media/njflManagerRecordByYear_thomas.e6c47c8ce000b915ec1c.png",
     "static/media/njflLeagueManagers.png": "/fantasyFootballVisualizer/static/media/njflLeagueManagers.b85e518db420b1ad657d.png",
     "static/media/njflManagerRecordByYear_brendan.png": "/fantasyFootballVisualizer/static/media/njflManagerRecordByYear_brendan.444a8e7b1f4de0c61f49.png",
@@ -12,11 +13,11 @@
     "static/media/football.png": "/fantasyFootballVisualizer/static/media/football.9119490b4a7672454333.png",
     "index.html": "/fantasyFootballVisualizer/index.html",
     "main.9edd9613.css.map": "/fantasyFootballVisualizer/static/css/main.9edd9613.css.map",
-    "main.f47e723e.js.map": "/fantasyFootballVisualizer/static/js/main.f47e723e.js.map",
+    "main.7977a935.js.map": "/fantasyFootballVisualizer/static/js/main.7977a935.js.map",
     "787.3c6b7553.chunk.js.map": "/fantasyFootballVisualizer/static/js/787.3c6b7553.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9edd9613.css",
-    "static/js/main.f47e723e.js"
+    "static/js/main.7977a935.js"
   ]
 }
